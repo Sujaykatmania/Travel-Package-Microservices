@@ -6,7 +6,7 @@ A microservices-based travel package booking platform with personalized recommen
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
+- [🌟 Overview](#overview)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Setup](#setup)
