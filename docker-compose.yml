@@ -1,0 +1,68 @@
+version: "3.9"
+
+services:
+  admin_service:
+    build: ./admin_service
+    ports:
+      - "5001:5001"
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/mmt
+    volumes:
+      - ./db.py:/app/db.py
+
+  discount_service:
+    build: ./discount_service
+    ports:
+      - "5003:5003"
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/mmt
+    volumes:
+      - ./db.py:/app/db.py
+
+  recommendation_service:
+    build: ./recommendation_service
+    ports:
+      - "5004:5004"
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/mmt
+    volumes:
+      - ./db.py:/app/db.py
+
+  user_service:
+    build: ./user_service
+    ports:
+      - "5005:5005"
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/mmt
+    volumes:
+      - ./db.py:/app/db.py
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - admin_service
+      - discount_service
+      - recommendation_service
+      - user_service
+
+  mongo:
+    image: mongo
+    container_name: mmt-mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
