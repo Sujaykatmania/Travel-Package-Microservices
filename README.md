@@ -87,21 +87,26 @@ This project is a comprehensive travel package booking platform built using a mi
 
 ### Phase 1
 
-![Home Page](path/to/homepage.png)
+![Home Page](https://github.com/user-attachments/assets/02936cc3-85be-47b4-9d16-58d6f70a6bcc)
+
 *Home Page showcasing travel packages*
 
-![Package Details](path/to/packagedetails.png)
+![Package Details](https://github.com/user-attachments/assets/0b8948a3-62f1-4a38-be29-253e8d6b3642)
+
 *Detailed view of a travel package*
 
-![Admin Dashboard](path/to/admindashboard.png)
+![Admin Dashboard](https://github.com/user-attachments/assets/ae6d54ad-de8e-4c0c-9544-ed7d0a7932e0)
+
 *Admin dashboard for managing packages*
 
 ### Phase 2 - Integrations
 
-![Dynamic Pricing](path/to/dynamicpricing.png)
+![Dynamic Pricing](https://github.com/user-attachments/assets/ae6d54ad-de8e-4c0c-9544-ed7d0a7932e0)
+
 *Admin editing packages with dynamic pricing from Team 6*
 
-![Push Notification](path/to/pushnotification.png)
+![Push Notification](https://github.com/user-attachments/assets/5df869ef-f155-41ae-b528-83e6ce634cdb)
+
 *Push notification on user checkout from Team 6*
 
 *Note: Replace `path/to/*.png` with the actual paths to your screenshots.*
@@ -132,24 +137,6 @@ In Phase 2, we collaborated with Team 6 to integrate their services:
 This project demonstrates a robust, scalable travel booking platform using a microservices architecture. From Phase 1’s foundational setup to Phase 2’s seamless integration with Team 6, each component was designed with separation of concerns, modularity, and extensibility in mind. The use of containerization, modern tech stacks, and inter-team collaboration ensures the system is production-ready and adaptable to future needs.
 
 **Happy Traveling!** ✈️🌍
-
----
-
-## 👥 Contributors
-
-### Team 11:
-
-- Sujay S.K (PES1UG22AM1169)
-- Venkat S (PES1UG22AM1188)
-- Vishwanath S (PES1UG22AM1194)
-- Vismaya V.U (PES1UG22AM1195)
-
-### Special Mentions (Integrated With) - Team 6:
-
-- Rohan Rameshan Kallummal (PES1UG22AM134)
-- Shyam VS (PES1UG22AM156)
-- Sudhanva Chari (PES1UG22AM167)
-- T S Shreyas (PES1UG22AM174)
 
 ---
 
