@@ -6,7 +6,7 @@ A microservices-based travel package booking platform with personalized recommen
 
 ## 📋 Table of Contents
 
-- [🌟 Overview](#overview)
+- [Overview](#overview)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Setup](#setup)
@@ -20,14 +20,14 @@ A microservices-based travel package booking platform with personalized recommen
 - [License](#license)
 
 ---
-
-## 🌟 Overview
+## 🌟
+## Overview
 
 This project is a comprehensive travel package booking platform built using a microservices architecture. It leverages modern frontend technologies and containerized deployment to provide a seamless and scalable user experience. The platform includes services for user management, package administration, discounts, recommendations, and more.
 
 ---
-
-## 🧰 Technologies Used
+## 🧰
+## Technologies Used
 
 - **Frontend**: React.js, TailwindCSS, React Router DOM
 - **Backend**: Flask (Python)
@@ -36,8 +36,8 @@ This project is a comprehensive travel package booking platform built using a mi
 - **Reverse Proxy**: Nginx
 
 ---
-
-## ✨ Features
+## ✨
+## Features
 
 - 🔐 User authentication and management
 - 📦 Travel package browsing and management
@@ -47,8 +47,8 @@ This project is a comprehensive travel package booking platform built using a mi
 - 📱 Responsive frontend
 
 ---
-
-## 🛠️ Setup
+## 🛠️
+## Setup
 
 1. **Clone the repository**:
    ```bash
@@ -74,16 +74,16 @@ This project is a comprehensive travel package booking platform built using a mi
      - User Service: http://localhost:5005
 
 ---
-
-## 📖 Usage
+## 📖
+## Usage
 
 - Visit `http://localhost:3000` to access the frontend.
 - Use the admin dashboard at `http://localhost:5001/admin` to manage packages.
 - API documentation is available at `http://localhost:5005/api/docs` for the user service.
 
 ---
-
-## 🎥 Project Demo
+## 🎥
+## Project Demo
 
 ### Phase 1
 
@@ -112,8 +112,8 @@ This project is a comprehensive travel package booking platform built using a mi
 *Note: Replace `path/to/*.png` with the actual paths to your screenshots.*
 
 ---
-
-## 🔗 Integrations
+## 🔗
+## Integrations
 
 In Phase 2, we collaborated with Team 6 to integrate their services:
 
@@ -121,8 +121,8 @@ In Phase 2, we collaborated with Team 6 to integrate their services:
 - **Push Notifications**: The user microservice triggers notifications via Team 6’s service upon actions like checkout.
 
 ---
-
-## 🔮 Future Enhancements
+## 🔮
+## Future Enhancements
 
 - 🌍 Multi-language support
 - 📱 Mobile app integration
@@ -131,21 +131,21 @@ In Phase 2, we collaborated with Team 6 to integrate their services:
 - 💳 Booking & payment integration
 
 ---
-
-## 📝 Conclusion
+## 📝
+## Conclusion
 
 This project demonstrates a robust, scalable travel booking platform using a microservices architecture. From Phase 1’s foundational setup to Phase 2’s seamless integration with Team 6, each component was designed with separation of concerns, modularity, and extensibility in mind. The use of containerization, modern tech stacks, and inter-team collaboration ensures the system is production-ready and adaptable to future needs.
 
 **Happy Traveling!** ✈️🌍
 
 ---
-
-## 🤝 Contributing
+## 🤝
+## Contributing
 
 Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) for more information.
 
 ---
-
-## 📄 License
+## 📄
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
